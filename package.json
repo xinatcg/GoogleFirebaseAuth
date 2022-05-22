@@ -1,5 +1,5 @@
 {
-  "name": "com.google.firebase.auth",
+  "name": "@playwind/com.google.firebase.auth",
   "version": "9.0.0",
   "displayName": "Firebase Authentication",
   "keywords": [
@@ -11,14 +11,23 @@
     "vh-name:FirebaseAuth",
     "vh-name:Firebase Authentication"
   ],
-  "author": {
-    "name": "Google LLC",
-    "url": "https://firebase.google.com/docs/auth/unity/start"
-  },
+  "author": "Google LLC (https://firebase.google.com/docs/auth/unity/start)",
   "description": "Easily sign-in and authenticate players.\n\nSign-in players using any identity provider with Firebase Authentication. It supports email and password, phone authentication, Facebook, Google, Twitter, and more. Out-of-the-box, you get a secure, end-to-end identity solution.",
   "unity": "2017.1",
   "dependencies": {
     "com.google.firebase.app": "9.0.0"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinatcg/GoogleFirebaseAuth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xinatcg/GoogleFirebaseAuth/issues"
+  },
+  "homepage": "https://github.com/xinatcg/GoogleFirebaseAuth#readme"
 }
